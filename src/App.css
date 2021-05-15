@@ -1,0 +1,57 @@
+.app {
+  min-height: 100vh;
+  background-color: #1b1b1b;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width:700px) {
+  .app {
+    padding-top: 70px;
+  }
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 88, 90, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(54, 53, 54, 0.959);
+  border-radius: 12px;
+}
+
+.color-white {
+  color: white !important;
+}
+
+* {
+  scroll-behavior: smooth;
+}
